@@ -6,15 +6,15 @@
   </div>
 </template>
 <script>
-import Addition from "./components/Addition.vue";
-import Subtraction from "./components/Subtraction.vue";
+import Addition from './components/Addition.vue'
+import Subtraction from './components/Subtraction.vue'
 export default {
   data() {
-    return {};
+    return {}
   },
   components: {
-    "my-addition": Addition,
-    "my-subtraction": Subtraction
+    'my-addition': Addition,
+    'my-subtraction': Subtraction
   }
-};
+}
 </script>
